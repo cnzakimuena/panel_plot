@@ -1,5 +1,6 @@
 """ 
-This script generates a panel plot of images with specified dimensions. The function creates a grid 
+This script generates a panel plot of images with specified dimensions. It uses microscopic 
+images for demonstration and includes example annotations. The function creates a grid 
 of subplots, each displaying an image from the provided list of image paths.
 """
 import os
