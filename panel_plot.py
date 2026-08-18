@@ -123,6 +123,7 @@ def generate_plot(img_paths, panel_dim, **plot_kwargs):
                 ha="center", va="top", fontsize=global_font_size, color="k")
     # draw custom line next to subplots
     ax2 = plt.axes([0, 0, 1, 1], facecolor=(1, 1, 1, 0))
+    ax2.axis('off')
     x, y = np.array([[0.098, 0.098], [0.4,  0.865]])
     line = Line2D(x, y, lw=2, color='k')
     ax2.add_line(line)
