@@ -1,13 +1,20 @@
 # Panel Plot
 Script to generate a panel plot of images with specified dimensions. The function creates a grid of subplots, each displaying an image from the provided list of image paths. The plot uses Babesia, Toxoplasma and Trypanosoma microscopic images ([Li & Zhang, 2020](https://data.mendeley.com/datasets/38jtn4nzs6/3)) for demonstration and includes example annotations. 
 
-installation:
+Environment setup:
+
+```bash
+conda create -n myenv python=3.11
+conda activate myenv
+```
+
+Dependencies installation:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-usage:
+Usage:
 
 ```bash
 python panel_plot.py
