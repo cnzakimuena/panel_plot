@@ -17,7 +17,7 @@ pip install -r requirements.txt
 Usage:
 
 ```bash
-python panel_plot.py
+python plot_panel.py
 ```
 
 <p align="center">
